@@ -1,0 +1,13 @@
+{
+    "type": "record",
+    "namespace": "com.github.tfindlay.kafka",
+    "name": "Measurement",
+    "version": 2,
+    "fields": [
+      { "name": "event_time", "type": "long", "logicalType":"timestamp-millis" },
+      { "name": "location", "type": "string", "default": "Aconex" },
+      { "name": "sound_level", "type": "float" },
+      { "name": "super_fun_spectacular_party_time", "type": "string", "default": "awesome" }
+    ]
+
+}
